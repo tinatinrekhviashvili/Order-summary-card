@@ -1,0 +1,197 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Red Hat Display", "sans-serif";
+  background-color: #d6e1ff;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.card {
+  width: 100%;
+  max-width: 450px;
+  border-radius: 20px;
+  background-color: #fff;
+}
+
+.img-card {
+  width: 100%;
+  margin-bottom: 45px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+.main-text {
+  font-size: 28px;
+  font-weight: 900;
+  line-height: 37.04px;
+  text-align: center;
+  color: #1f2e55;
+}
+
+.secondary-text {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 26px;
+  text-align: center;
+  color: #717fa6;
+  margin: 17px 48px 20px 48px;
+}
+
+.music-sec {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #f7f9ff;
+  border-radius: 11px;
+  margin: 0 48px 32px;
+}
+
+.music-icon {
+  margin: 24px;
+}
+
+.music-link:active,
+.music-link:hover {
+  color: #766cf1;
+  text-decoration: none;
+}
+
+.annual-text {
+  font-size: 16px;
+  font-weight: 900;
+  line-height: 21.17px;
+  color: #1f2e55;
+}
+
+.price-text {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 21.17px;
+  color: #717fa6;
+}
+
+.music-link {
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 18.52px;
+  color: #382ae1;
+}
+
+.btn {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 32px;
+}
+
+.btn-card {
+  background-color: #382ae1;
+  font-size: 15px;
+  font-weight: 900;
+  line-height: 20px;
+  color: #ffffff;
+  border-radius: 11px;
+  box-shadow: 0px 20px 20px rgb(56 42 225 / 19%);
+  border: none;
+  width: 100%;
+  max-width: 354px;
+  padding: 15px;
+}
+
+.btn-card:active,
+.btn-card:hover {
+  background-color: #766cf1;
+}
+
+.cancel-sec {
+  margin-bottom: 48px;
+}
+
+.cancel-text {
+  text-align: center;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 15px;
+  line-height: 20px;
+  color: #717fa6;
+}
+
+.cancel-text:active,
+.cancel-text:hover {
+  color: #1f2e55;
+}
+
+@media (max-height: 700px) {
+  .container {
+    height: 100%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+}
+
+@media (max-width: 768px) {
+  .main-text {
+    font-size: 22px;
+    font-weight: 900;
+    line-height: 29.11px;
+    text-align: center;
+    color: #1f2e55;
+  }
+
+  .secondary-text {
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 25px;
+    padding: 0 32px 0 32px;
+    margin: 17px 48px 26px 48px;
+  }
+
+  .img-card {
+    margin-bottom: 30px;
+  }
+
+  .music-sec {
+    margin: 0 28px 32px;
+    padding: 18px;
+  }
+
+  .btn {
+    margin-top: 15px;
+    margin-bottom: 24px;
+    padding: 0 32px 0 32px;
+  }
+
+  .music-icon {
+    margin-top: 0;
+    margin-bottom: 10px;
+  }
+  .annual-text {
+    font-size: 14px;
+    line-height: 21.17px;
+  }
+  .price-text {
+    font-size: 13px;
+  }
+  .music-link {
+    font-size: 12px;
+  }
+
+  .main-text {
+    font-size: 23px;
+  }
+
+  .cancel-sec {
+    margin-bottom: 20px;
+  }
+}
